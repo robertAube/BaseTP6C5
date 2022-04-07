@@ -16,7 +16,7 @@ set/a m2="m+5"
 set Heure=%h%:%m2%
 
 REM La date et l'heure sont utilisez pour le message du commit
-SET Maintenant=%yyyy%%mm%%dd% %Heure%
+set Maintenant=%yyyy%%mm%%dd% %Heure%
 
 REM Trouver le nom du répertoire courant
 for %%I in (.) do set CurrDirName=%%~nxI
