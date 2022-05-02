@@ -7,4 +7,9 @@ public class ChangeScene : MonoBehaviour
 //        Debug.Log("Scene : " + name);
         SceneManager.LoadScene(name);
     }
+    public void ExitGame()
+    {
+  //      Debug.Log("Quit!");
+        Application.Quit(); //The Application.Quit call is ignored in the Editor.
+    }
 }
